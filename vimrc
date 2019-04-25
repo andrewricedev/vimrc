@@ -21,14 +21,5 @@ set splitbelow splitright
 " Ctrl+N for nerd tree
 map <C-n> :NERDTreeToggle<CR>
 
-" Syntastic options
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
-
 " Ale options
 let g:ale_linters = {'python': ['pylint']}
